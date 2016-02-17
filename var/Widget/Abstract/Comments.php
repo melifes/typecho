@@ -387,7 +387,7 @@ class Widget_Abstract_Comments extends Widget_Abstract
      * @param string $default 默认输出头像
      * @return void
      */
-    public function gravatar($size = 32, $default = NULL)
+    public function gravatar($size = 42, $default = NULL)
     {
         if ($this->options->commentsAvatar && 'comment' == $this->type) {
             $rating = $this->options->commentsAvatarRating;
